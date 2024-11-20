@@ -1,0 +1,63 @@
+/* 여기에 작업 또는 수정할 당신의 css style을 설정하세요. (customizations) */
+.footer{
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+}
+.footer-top{
+    border: none;
+}
+.footer-right-nav a {
+    color: #FFFFFF;
+}
+.footer-cont-info{
+    text-align: left;
+}
+.footer-copyright{
+    text-align: left;
+}
+.footer-bottom{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.footer-bottom a {
+    color: #FFFFFF;
+    font-size: .9375rem;
+    margin-right: 10px
+}
+.footer-cont-info .contact-row{
+    margin-bottom: 1rem;
+}
+.footer-cont-info .contact-row span a{
+    text-decoration: none;
+}
+
+@media (max-width: 991px) {
+    .footer-nav {
+        text-align: left;
+    }
+
+    .footer-right-nav {
+        width: 100%;
+        text-align: left;
+        margin-top: 10px
+    }
+    .footer-right-nav a {
+        display: block;
+        margin-top: 10px;
+    }
+    .footer-cont-info .contact-row .info-divider{
+        display: none;
+    }
+    .footer-cont-info .contact-row span{
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .header-title .container .split{
+        display: none;
+        background-color: red;
+    }
+}
